@@ -1,5 +1,7 @@
 # Portfolio
 
+Live at https://utsabshiwakoti.com
+
 My personal site: the projects I've built, a short about section, and a one-page resume.
 
 ## What it does
@@ -46,7 +48,7 @@ After changing resume content, regenerate the PDF: open `/resume.html`, print, "
 
 ## Deploying
 
-The workflow in `.github/workflows/deploy.yml` lints, builds and publishes `dist/` to GitHub Pages. In the repo settings, set **Pages → Source** to **GitHub Actions**. For a custom domain, add the domain to `public/CNAME` and point DNS at GitHub Pages.
+The workflow in `.github/workflows/deploy.yml` lints, builds and publishes `dist/` to GitHub Pages. In the repo settings, set **Pages → Source** to **GitHub Actions**. The custom domain (utsabshiwakoti.com) is set under **Pages → Custom domain**, with DNS pointing at GitHub Pages.
 
 ## What I'd add next
 
