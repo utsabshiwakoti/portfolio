@@ -36,7 +36,7 @@ export default function Resume() {
           <p>
             Full-stack developer with a Computer Programming diploma from Seneca. I build and deploy complete web
             applications with Python (FastAPI), React and PostgreSQL, backed by 160+ automated tests and CI. Four
-            live projects and one client website in production, each documented with its design decisions.
+            live projects and one company website in production, each documented with its design decisions.
           </p>
         </section>
 
@@ -53,7 +53,7 @@ export default function Resume() {
           <h2>Experience</h2>
           <div className="entry">
             <div className="entry-head">
-              <h3>Freelance web developer <span>· {clientWork.name}</span></h3>
+              <h3>{clientWork.role} <span>· {clientWork.name}</span></h3>
               <span>Halifax, NS · 2026</span>
             </div>
             <p className="entry-sub">{clientWork.tagline} · <a href={clientWork.live}>{host(clientWork.live)}</a> · {clientWork.stack.slice(0, 3).join(', ')}</p>

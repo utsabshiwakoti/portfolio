@@ -26,11 +26,11 @@ export default function Home() {
         </section>
 
         <section id="client-work" className="section" aria-labelledby="client-title">
-          <SectionHead id="client-title" kicker="02 / Client work" title="Built for a real business">
-            Freelance work for a client, running in production.
+          <SectionHead id="client-title" kicker="02 / Work" title="Built for a real business">
+            What I build and run as {clientWork.role} at {clientWork.name}.
           </SectionHead>
           <div className="projects">
-            <ProjectCard project={clientWork} index={0} label="Freelance" />
+            <ProjectCard project={clientWork} index={0} label={clientWork.role} />
           </div>
         </section>
 

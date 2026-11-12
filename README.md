@@ -6,7 +6,7 @@ My personal site: the projects I've built, a short about section, and a one-page
 
 ## What it does
 
-- **Home page** (`index.html`): intro, four project case studies with screenshots, live links and source links, client work, skills, education and contact links.
+- **Home page** (`index.html`): intro, four project case studies with screenshots, live links and source links, my work at UGEC Canada, skills, education and contact links.
 - **Resume page** (`resume.html`): the same content laid out as a one-page resume. It prints cleanly to a single Letter page, and that print is the downloadable PDF.
 
 ## Stack

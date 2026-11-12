@@ -91,9 +91,10 @@ export const projects = [
   },
 ]
 
-// Real client work: shown separately from the portfolio projects.
+// My job at UGEC Canada: shown separately from the portfolio projects.
 export const clientWork = {
   name: 'UGEC Canada',
+  role: 'Technical Analyst',
   id: 'ugec',
   question: 'What happens to a lead after the form is sent?',
   proof: ['In production', 'Lead CRM', 'Two-step sign-in'],
@@ -131,7 +132,7 @@ export const education = [
 export const stats = [
   ['4', 'apps live in production'],
   ['160+', 'automated tests'],
-  ['1', 'client site in production'],
+  ['1', 'company site in production'],
 ]
 
 export const practices = [
