@@ -223,7 +223,7 @@ svg { flex: none; }
 .proof { list-style: none; padding: 0; margin: 0 0 0.8rem; display: flex; flex-wrap: wrap; gap: 0.3rem 1.1rem; font-family: var(--mono); font-size: 0.76rem; color: var(--text-2); }
 .proof li::before { content: ''; display: inline-block; width: 0.42rem; height: 0.42rem; border-radius: 50%; background: var(--ok); margin-right: 0.45rem; vertical-align: 0.08em; }
 .project .chips { margin-bottom: 1.2rem; }
-.project-links { display: flex; gap: 0.5rem; }
+.project-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
 /* ---------- how I work ---------- */
 .practices { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }

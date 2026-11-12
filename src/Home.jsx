@@ -265,6 +265,7 @@ function ProjectCard({ project, index, label }) {
         <div className="project-links">
           <a className="button small" href={project.live}>Live site <ArrowIcon /></a>
           {project.code && <a className="button small secondary" href={project.code}><GitHubIcon /> Code</a>}
+          {project.writeup && <a className="button small secondary" href={project.writeup}>How it works <ArrowIcon /></a>}
         </div>
       </div>
     </article>

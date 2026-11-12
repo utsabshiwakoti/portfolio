@@ -54,7 +54,7 @@ export default function Resume() {
           <div className="entry">
             <div className="entry-head">
               <h3>{clientWork.role} <span>· {clientWork.name}</span></h3>
-              <span>Halifax, NS · 2026</span>
+              <span>Halifax, NS · 2026 – Present</span>
             </div>
             <p className="entry-sub">{clientWork.tagline} · <a href={clientWork.live}>{host(clientWork.live)}</a> · {clientWork.stack.slice(0, 3).join(', ')}</p>
             <ul>{clientWork.highlights.slice(0, 3).map((h) => <li key={h}>{h}</li>)}</ul>

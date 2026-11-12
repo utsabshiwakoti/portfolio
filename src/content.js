@@ -52,6 +52,7 @@ export const projects = [
     stack: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'React', 'Docker', 'GitHub Actions'],
     live: 'https://slotbook-n97p.onrender.com',
     code: 'https://github.com/utsabshiwakoti/slotbook',
+    writeup: 'https://github.com/utsabshiwakoti/slotbook/blob/main/docs/no-double-booking.md',
   },
   {
     id: 'realtime-chat',
@@ -97,12 +98,13 @@ export const clientWork = {
   role: 'Technical Analyst',
   id: 'ugec',
   question: 'What happens to a lead after the form is sent?',
-  proof: ['In production', 'Lead CRM', 'Two-step sign-in'],
+  proof: ['In production', '50+ leads captured', '2 staff, 6 partners'],
   tagline: 'Website and lead management for a Halifax education consultancy',
   image: 'projects/ugec.webp',
   summary:
     'The public website and a staff admin panel for an education consultancy: program catalogue, consultation booking, blog, a referral partner portal, and a CRM for the leads the site brings in.',
   highlights: [
+    'Built and run the company website and its admin tools: 50+ leads captured so far, used by 2 staff and 6 referral partners',
     'Lead CRM for staff: pipeline, assignment, follow-up dates, notes, bulk actions, CSV export and a daily follow-up email',
     'Admin security: scrypt passwords, signed httpOnly cookies, server-checked roles, TOTP two-step sign-in, rate-limited logins',
     'Separate portal where referral partners sign in and see only their own referrals',
