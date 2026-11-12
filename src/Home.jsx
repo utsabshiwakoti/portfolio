@@ -170,7 +170,7 @@ function Hero() {
   return (
     <section id="top" className="hero">
       <div className="hero-text">
-        <p className="status"><span className="dot" aria-hidden="true" /> Open to junior developer roles<span className="status-loc"> · {site.location}</span></p>
+        <p className="status"><span className="dot" aria-hidden="true" /> Open to junior developer roles<span className="status-loc"> · Halifax, Toronto or remote</span></p>
         <h1>
           Hi, I'm {firstName}. I build web apps that <span className="grad">hold up under real use.</span>
         </h1>

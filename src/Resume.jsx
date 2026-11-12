@@ -37,6 +37,7 @@ export default function Resume() {
             Full-stack developer with a Computer Programming diploma from Seneca. I build and deploy complete web
             applications with Python (FastAPI), React and PostgreSQL, backed by 160+ automated tests and CI. Four
             live projects and one company website in production, each documented with its design decisions.
+            Open to on-site, hybrid or remote roles in Halifax or Toronto, and remote or hybrid roles elsewhere in Canada.
           </p>
         </section>
 
