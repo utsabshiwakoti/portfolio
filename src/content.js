@@ -19,6 +19,8 @@ export const intro = [
 export const projects = [
   {
     id: 'statday',
+    question: 'What happens when a holiday lands on a Saturday?',
+    proof: ['60 tests', 'CI on every push', 'Generated SDK'],
     name: 'StatDay',
     tagline: 'Public REST API for Canadian statutory holidays',
     image: 'projects/statday.webp',
@@ -35,6 +37,8 @@ export const projects = [
   },
   {
     id: 'slotbook',
+    question: 'What if two people book the same slot in the same second?',
+    proof: ['34 tests', 'CI with real Postgres', 'Read-only demo login'],
     name: 'SlotBook',
     tagline: 'Appointment booking for small businesses',
     image: 'projects/slotbook.webp',
@@ -51,6 +55,8 @@ export const projects = [
   },
   {
     id: 'realtime-chat',
+    question: 'How do you sign in a WebSocket without putting a token in the URL?',
+    proof: ['42 tests', 'CI on every push', 'Real WebSocket tests'],
     name: 'Realtime Chat',
     tagline: 'Chat rooms and direct messages over WebSockets',
     image: 'projects/realtime-chat.webp',
@@ -67,6 +73,8 @@ export const projects = [
   },
   {
     id: 'job-tracker',
+    question: 'How do you capture the same job twice and still get one card?',
+    proof: ['27 tests', 'Chrome extension', 'Offline queue'],
     name: 'Job Tracker',
     tagline: 'Job search dashboard with a Chrome extension',
     image: 'projects/job-tracker.webp',
@@ -86,6 +94,9 @@ export const projects = [
 // Real client work: shown separately from the portfolio projects.
 export const clientWork = {
   name: 'UGEC Canada',
+  id: 'ugec',
+  question: 'What happens to a lead after the form is sent?',
+  proof: ['In production', 'Lead CRM', 'Two-step sign-in'],
   tagline: 'Website and lead management for a Halifax education consultancy',
   image: 'projects/ugec.webp',
   summary:
@@ -114,4 +125,18 @@ export const education = [
     credential: 'Computer Programming diploma',
     dates: 'Graduated April 2025',
   },
+]
+
+// Numbers shown under the hero. Update them when a project's test suite grows.
+export const stats = [
+  ['4', 'apps live in production'],
+  ['160+', 'automated tests'],
+  ['1', 'client site in production'],
+]
+
+export const practices = [
+  ['Tested', 'The tricky logic gets tests first: race conditions, time zones, permissions. 160+ across four projects, some firing real concurrent requests.'],
+  ['Automated', 'GitHub Actions runs the tests on every push, against a real Postgres where the database is the point.'],
+  ['Shipped', 'Every project is deployed, not just built: Docker images on Render, Postgres on Neon, redeployed on push.'],
+  ['Explained', 'Each README covers how to run it, how to test it, and why the code looks the way it does.'],
 ]

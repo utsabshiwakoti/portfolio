@@ -8,8 +8,18 @@
     <meta property="og:title" content="Utsab Shiwakoti, full-stack developer" />
     <meta property="og:description" content="Utsab Shiwakoti, junior full-stack developer in Halifax, NS. Python, FastAPI, React and PostgreSQL projects, live and tested." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="projects/statday.webp" />
+    <meta property="og:image" content="https://utsabshiwakoti.github.io/portfolio/projects/statday.webp" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <script>
+      // Pick the theme before the first paint (saved choice, else the system setting), so there is no flash.
+      (function () {
+        var t = null
+        try { t = localStorage.getItem('theme') } catch (e) {}
+        if (t !== 'dark' && t !== 'light') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        document.documentElement.dataset.theme = t
+        document.documentElement.classList.add('js')
+      })()
+    </script>
   </head>
   <body data-page="home">
     <div id="root"></div>

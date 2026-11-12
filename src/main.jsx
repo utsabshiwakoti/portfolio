@@ -2,6 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Home from './Home'
 import Resume from './Resume'
+import '@fontsource-variable/inter'
+import '@fontsource-variable/jetbrains-mono'
 import './styles.css'
 
 // Two static pages (index.html and resume.html) share this entry; each says which one it is.
