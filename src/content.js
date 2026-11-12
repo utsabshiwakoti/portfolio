@@ -5,7 +5,7 @@ export const site = {
   name: 'Utsab Shiwakoti',
   role: 'Junior full-stack developer',
   location: 'Halifax, Nova Scotia',
-  availability: 'Open to junior developer roles, remote or hybrid, anywhere in Canada.',
+  availability: 'Open to junior developer roles: on-site, hybrid or remote in Halifax or Toronto, and remote or hybrid anywhere else in Canada.',
   email: 'sutsab4321@gmail.com',
   linkedin: 'https://www.linkedin.com/in/utsab-shiwakoti',
   github: 'https://github.com/utsabshiwakoti',
