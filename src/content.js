@@ -6,8 +6,8 @@ export const site = {
   role: 'Junior full-stack developer',
   location: 'Halifax, Nova Scotia',
   availability: 'Open to junior developer roles, remote or hybrid, anywhere in Canada.',
-  email: '', // public address shown on the site, e.g. 'hello@example.com'
-  linkedin: '', // full profile URL, e.g. 'https://www.linkedin.com/in/your-name'
+  email: 'sutsab4321@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/utsab-shiwakoti',
   github: 'https://github.com/utsabshiwakoti',
 }
 
